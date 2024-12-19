@@ -1,0 +1,54 @@
+/* Blog Post Card */
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Buttons */
+.primary-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 30%;
+  margin-left: 70%;
+}
+
+.primary-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Author Info */
+.author-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.author-info .avatar {
+  border-radius: 50%;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.bio {
+  text-align: left;
+}
+
+/* Social Links */
+.social-links a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
